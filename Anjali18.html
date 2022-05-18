@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INLINE CSS</title>
+    </head>
+    <body>
+        <form align="center">
+            <fieldset align="center" style="background-color: aliceblue; border-inline-color:rgb(44, 189, 219);border-radius: 25px;padding: auto;;margin: 500;width: 500;height: 600;">
+                <legend>REGISTER FROM</legend>
+                <br><br>
+            FIRST NAME  <input type="text" placeholder="ENTER YOUR NAME" style="border-color:brown ;border-radius: 20px;"><br><br><br>
+            LAST NAME  <input type="text" placeholder="ENTER YOUR NAME" style="border-color:aqua ;border-radius: 20px;" ><br><br><br>
+            CONTACT <input type="text" placeholder="ENTER CONTACT NO" style="border-color:brown ;border-radius: 20px;"> <br><br><br>
+            E-MAILID <input type="text" placeholder="ENTER YOUR E-MAIL"style="border-color:aqua;border-radius: 20px;"><br><br><br>
+            YOUR MASSAGE<input type="text"style="border-color:aqua ;border-radius: 20px;"><br><br><br>
+            <button style="border-color:rgb(244, 170, 236) ;border-radius: 20px;"><a href="log in .html">SUBMIT</a></button>
+            <br><br>
+            <button style="border-color:rgb(244, 170, 236) ;border-radius: 20px;"  >RESET</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
+<hr>
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>Google
+				<ul>
+					<li>Gmail
+						<ul>
+							<li>Sign Up</li>
+							<li>Sign In
+								<ul>
+									<li>Sign In As Admin</li>
+									<li>Sign In As Member</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Youtube</li>
+					<li>GDrive</li>
+					<li>GMap</li>
+				</ul>
+			</li>
+			<li>Facebook</li>
+			<li>Microsoft
+				<ul>
+					<li>Bing</li>
+					<li>Linked In</li>
+				</ul>
+			</li>
+			<li>MSN</li>
+			<li>Amazon
+				<ul>
+					<li>AWS</li>
+					<li>Ecommerce</li>
+					<li>A-ML</li>
+                    <li>B2C</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
